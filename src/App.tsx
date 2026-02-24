@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import EngagementManager from './components/EngagementManager';
 import Home from './pages/Home';
 import DigitalMarketing from './pages/DigitalMarketing';
 import AIAgents from './pages/AIAgents';
@@ -27,6 +28,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <EngagementManager />
       <div className="relative min-h-screen flex flex-col">
         {/* Progress Bar */}
         <motion.div
